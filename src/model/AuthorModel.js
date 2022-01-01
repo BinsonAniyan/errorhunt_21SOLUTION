@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/Library', {
+mongoose.connect('mongodb+srv://userone:userone@binsonfiles.r2h5f.mongodb.net/LIBAPP?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
